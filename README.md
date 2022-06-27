@@ -3,12 +3,12 @@ This document introducing how to install **`PREEMPT RT`** on **`ubuntu 18.04`**.
 [REFERENCE PAGE](https://chenna.me/blog/2020/02/23/how-to-setup-preempt-rt-on-ubuntu-18-04/)
 
 ## INSTALL DEPENDENCIES
-```bash
+```console
 $ sudo apt-get install build-essential libncurses-dev bison flex libssl-dev libelf-dev git
 ```
 
 ## DOWNLOAD AND PATCH
-```bash
+```console
 $ wget https://mirrors.edge.kernel.org/pub/linux/kernel/v5.x/linux-5.4.193.tar.xz
 $ wget https://mirrors.edge.kernel.org/pub/linux/kernel/projects/rt/5.4/patch-5.4.193-rt74.patch.xz
     
@@ -18,7 +18,7 @@ $ xzcat ../patch-5.4.193-rt74.patch.xz | patch -p1
 ```
     
 ## CONFIGURATION
-```bash
+```console
 $ cp -v /boot/config-$(uname -r) .config
 ```
     
