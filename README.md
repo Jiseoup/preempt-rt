@@ -35,10 +35,12 @@ $ vim .config
 Search the **`CONFIG_SYSTEM_TRUSTED_KEYS`** and erase the contents inside the double quotation marks.  
 
 ### Before Modification
+---------------------------
 <img src="/img/before.png" width="50%" height="50%"/>
 
 ### After Modification
-<img src="/img/after.png" width="50%" height="50%"/>
+---------------------------
+<img src="/img/after.png" width="50%" height="40%"/>
 
 ## MENUCONFIG SETTINGS
 You have to set the menu configuration.
