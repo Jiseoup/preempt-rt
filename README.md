@@ -41,7 +41,7 @@ You have to set the menu configuration.
 $ make menuconfig
 ```
 
-Essential Settings
+### Essential Settings
 ```
 General setup -> Preemption Model -> Fully Preemptible Kernel (Real-Time)
 Processor type and features -> Timer frequency -> 1000 HZ
