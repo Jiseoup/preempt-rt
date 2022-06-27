@@ -69,7 +69,9 @@ $ make -j $(nproc) deb-pkg
 ```
 
 ```bash
-$ sudo dpkg -i ../linux-headers-5.4.193-rt74_5.4.193-rt74-1_amd64.deb ../linux-image-5.4.193-rt74_5.4.193-rt74-1_amd64.deb ../linux-libc-dev_5.4.193-rt74-1_amd64.deb
+$ sudo dpkg -i ../linux-headers-5.4.193-rt74_5.4.193-rt74-1_amd64.deb 
+                ../linux-image-5.4.193-rt74_5.4.193-rt74-1_amd64.deb 
+                ../linux-libc-dev_5.4.193-rt74-1_amd64.deb
 ```
 
 ## Verification
