@@ -6,14 +6,14 @@ This document introducing how to install **`PREEMPT RT`** on **`ubuntu 18.04`**.
     $ sudo apt-get install build-essential libncurses-dev bison flex libssl-dev libelf-dev git
 
 ## DOWNLOAD AND PATCH
-    ```bash
-    $ wget https://mirrors.edge.kernel.org/pub/linux/kernel/v5.x/linux-5.4.193.tar.xz
-    $ wget https://mirrors.edge.kernel.org/pub/linux/kernel/projects/rt/5.4/patch-5.4.193-rt74.patch.xz
+```bash
+$ wget https://mirrors.edge.kernel.org/pub/linux/kernel/v5.x/linux-5.4.193.tar.xz
+$ wget https://mirrors.edge.kernel.org/pub/linux/kernel/projects/rt/5.4/patch-5.4.193-rt74.patch.xz
     
-    $ xz -cd linux-5.4.193.tar.xz | tar xvf -
-    $ cd linux-5.4.193
-    $ xzcat ../patch-5.4.193-rt74.patch.xz | patch -p1
-    ```
+$ xz -cd linux-5.4.193.tar.xz | tar xvf -
+$ cd linux-5.4.193
+$ xzcat ../patch-5.4.193-rt74.patch.xz | patch -p1
+```
     
 ## CONFIGURATION
     $ cp -v /boot/config-$(uname -r) .config
