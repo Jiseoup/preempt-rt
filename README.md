@@ -33,7 +33,11 @@ You may have to edit the **`.config`** file.
 $ vim .config
 ```
 Search the **`CONFIG_SYSTEM_TRUSTED_KEYS`** and erase the contents inside the double quotation marks.  
+
+### Before Modification
 ![alt before](/img/before.png)
+
+### After Modification
 ![alt after](/img/after.png)
 
 ## MENUCONFIG SETTINGS
