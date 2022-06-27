@@ -46,15 +46,22 @@ You have to set the menu configuration.
 $ make menuconfig
 ```
 
-### Essential Settings
+### Essential
 ```
 General setup -> Preemption Model -> Fully Preemptible Kernel (Real-Time)
 Processor type and features -> Timer frequency -> 1000 HZ
 ```
 
-[uniprocessor]Processor type and features -> Symmetric multi-processing support [OFF]
+### Optional
+If you want to use the kernel as a uniprocessor, follow the instructions below.
+```
+Processor type and features -> Symmetric multi-processing support -> [OFF]
+```
 
+Now save the menuconfig and exit.
+```
 Save -> Exit
+```
     
 ## BUILD AND INSTALL
 ```bash
@@ -64,3 +71,11 @@ $ make -j $(nproc) deb-pkg
 ```bash
 $ sudo dpkg -i ../linux-headers-5.4.193-rt74_5.4.193-rt74-1_amd64.deb ../linux-image-5.4.193-rt74_5.4.193-rt74-1_amd64.deb ../linux-libc-dev_5.4.193-rt74-1_amd64.deb
 ```
+
+## Verification
+Reboot your system and check the kernel.
+```bash
+$ sudo reboot
+$ uname -a
+```
+
