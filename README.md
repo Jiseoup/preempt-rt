@@ -53,7 +53,7 @@ Processor type and features -> Timer frequency -> 1000 HZ
 ```
 
 ### Optional
-If you want to use the kernel as a uniprocessor, follow the instructions below.
+If you want to use the kernel as a **`uniprocessor`**, follow the instructions below.
 ```
 Processor type and features -> Symmetric multi-processing support -> [OFF]
 ```
