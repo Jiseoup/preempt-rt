@@ -38,7 +38,7 @@ Search the **`CONFIG_SYSTEM_TRUSTED_KEYS`** and erase the contents inside the do
 <img src="/img/before.png" width="50%" height="50%"/>
 
 ### After Modification
-<img src="/img/after.png" width="50%" height="20%"/>
+<img src="/img/after.png" width="50%" height="1%"/>
 
 ## MENUCONFIG SETTINGS
 You have to set the menu configuration.
