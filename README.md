@@ -8,7 +8,7 @@ $ sudo apt-get install build-essential libncurses-dev bison flex libssl-dev libe
 ```
 
 ## DOWNLOAD AND PATCH
-Download the **`linux-5.4.193`** kernel and the **`RT patch`** from [kernel.org](kernel.org).
+Download the **`linux-5.4.193`** kernel and the **`RT patch`** from [kernel.org](https://kernel.org).
 ```bash
 $ wget https://mirrors.edge.kernel.org/pub/linux/kernel/v5.x/linux-5.4.193.tar.xz
 $ wget https://mirrors.edge.kernel.org/pub/linux/kernel/projects/rt/5.4/patch-5.4.193-rt74.patch.xz
