@@ -36,7 +36,9 @@ Search the **`CONFIG_SYSTEM_TRUSTED_KEYS`** and erase the contents inside the do
 
 ### Before Modification
 ![alt before](/img/before.png)
-<img src="/img/before.png  width="313" height="138"/>
+
+<img src="/img/before.png" width="50%" height="50%"/>
+                                                 
 
 ### After Modification
 ![alt after](/img/after.png)
